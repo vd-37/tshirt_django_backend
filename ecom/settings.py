@@ -29,7 +29,7 @@ SECRET_KEY = 'iqlfys_luymme_hqvp-+!iy@xnk2)(m(k=4!_tl4xpr9gqmofs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['tshirtbackend.herokuapp.com']
 
 
 # Application definition
