@@ -8,7 +8,6 @@ class Product(models.Model):
     description = models.CharField(max_length=250)
     price = models.CharField(max_length=50)
     stock = models.CharField(max_length=50)
-    product_id = models.CharField(max_length=250)
     is_active = models.BooleanField(default=True, blank=True)
     image = models.ImageField(upload_to='images/', blank=True, null=True)
     category = models.ForeignKey(
