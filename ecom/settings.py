@@ -27,11 +27,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'iqlfys_luymme_hqvp-+!iy@xnk2)(m(k=4!_tl4xpr9gqmofs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['tshirtbackend.herokuapp.com']
-
-
+# ALLOWED_HOSTS = ['tshirtbackend.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
